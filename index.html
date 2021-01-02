@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lrlc Kids</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/15fad66965.js" crossorigin="anonymous"></script>
+    <script>
+        function guessinggame() {
+    var guess = prompt("Guess a Number BeetWeen 1 and 10")
+    var number = Math.round(Math.random() * 1 + 10)
+    if guess < number
+    alert("Too Low")
+    if guess > number 
+    alert("Too High")
+
+    else {
+        alert("Correct. You Win!")
+    }
+
+}
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul><a style="        color: white;
+                background-color: transparent;
+                text-decoration: none;" href="./index.html">Home</a></ul>
+            <ul><a style="        color: white;
+                background-color: transparent;
+                text-decoration: none;" href="./about.html">About</a></ul>
+            <ul><a style="        color: white;
+                background-color: transparent;
+                text-decoration: none;" href="./contact.html">Contact</a></ul>
+        </nav>
+        <h1 class="mheading">Lrlc Kids</h1>
+        <p class="mparagraph">The Biggest Website Developing Company</p>
+    </header>
+<p class="underline"></p>
+
+
+<section class="Games">
+    <h1 class="gameheading" style="text-align: center;">Games</h1>
+    <div class="chickgame">
+        <img id="chickgameimage" src="./img/chickgame@screenshot.png" alt="">
+        <h1 class="chickgameh">Chick Game</h1>
+        <a href="https://scratch.mit.edu/projects/468532499/fullscreen/" target="_blank" class="chickplay">Play Now</a>
+    </div>
+    <div class="vpetgame">
+        <img id="chickgameimage" src="./img/myvpetgame@image.png" alt="">
+        <h1 class="chickgameh">My Virtual Pet Game</h1>
+        <a href="https://scratch.mit.edu/projects/468535812/fullscreen/" target="_blank" class="chickplay">Play Now</a>
+    </div>
+    <h1 class="gameheading" style="text-align: center;">Games</h1>
+    <div class="chickgame">
+        <h1 class="chickgameh">Guessing Game</h1>
+<button type="button" onclick="guessinggame()">Play Npw</button>
+    </div>
+</section>
+<footer>
+    <i class="fab fa-facebook-square fa-2x social-icons" ></i>
+    <i class="fab fa-instagram-square fa-2x social-icons"></i>
+    <i class="fab fa-twitter-square fa-2x social-icons"></i>
+</footer>
+<p id="Copyright">&copy; Copyright 2021 - 2022 . All Right Reserved</p>
+</body>
+</html>

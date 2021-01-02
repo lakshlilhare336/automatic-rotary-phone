@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .mheading , .mparagraph{
+    text-align: center;
+}
+:root{
+    background: url(./img/pexels-tuấn-kiệt-jr-1374509.jpg);
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+
+header p {
+    font-weight: 400;
+}
+
+.underline{
+    border-bottom: 2px solid black;
+    padding-top: 1rem;
+}
+
+#chickgameimage{
+    width: 18rem;
+    height: 10rem;
+    padding-top: 1rem;
+    padding-left: 12rem;
+}
+
+.chickgameh{
+    padding-left: 31rem;
+    position: relative;
+    top: -177px;
+    left: 22px;
+}
+
+.chickplay{
+    position: relative;
+    top: -141px;
+    left: 512px;
+    border-radius: 30px;
+    border: 2px solid red;
+    padding: 6px;
+    background: tomato;
+}
+
+.social-icons{
+    padding: 4rem;
+}
+
+footer{
+    padding-left: 25rem;
+}
+
+#Copyright{
+    padding-left: 29rem;
+}
