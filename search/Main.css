@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.headtext {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#navbar a:link {
+    color: aquamarine;
+}
+#navbar a:hover {
+    border-bottom: 2px solid white;
+}
+
+header#head {
+    padding-top: 146px;
+    background-image: url(source.unsplash.com/random/?kids);
+}
+
+#logo{
+    width: 9rem;
+    float: left;  
+    position: relative;
+    top: -79px;
+    left: 38rem;
+}
+
